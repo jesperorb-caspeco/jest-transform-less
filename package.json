@@ -1,0 +1,24 @@
+{
+  "name": "jest-transform-less",
+  "description": "Jest transformer to import LESS into JSDOM",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jesper Orb <jesper.orb@caspeco.se>",
+  "license": "MIT",
+  "dependencies": {
+    "common-tags": "1.8.0",
+    "cosmiconfig": "5.0.6",
+    "cross-spawn": "6.0.5",
+    "style-inject": "0.3.0"
+  },
+  "devDependencies": {
+    "less": "^3.9.0"
+  },
+  "peerDependencies": {
+    "less": "^3.9.0"
+  },
+  "keywords": [
+    "jest",
+    "less"
+  ]
+}
