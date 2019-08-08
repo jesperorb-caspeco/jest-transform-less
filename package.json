@@ -5,6 +5,14 @@
   "main": "index.js",
   "author": "Jesper Orb <jesper.orb@caspeco.se>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesperorb-caspeco/jest-transform-less.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jesperorb-caspeco/jest-transform-less/issues"
+  },
+  "homepage": "https://github.com/jesperorb-caspeco/jest-transform-less/",
   "dependencies": {
     "common-tags": "1.8.0",
     "cosmiconfig": "5.0.6",
