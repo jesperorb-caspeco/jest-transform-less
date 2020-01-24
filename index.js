@@ -1,5 +1,6 @@
 const fs = require("fs");
 const crypto = require("crypto");
+const path = require("path");
 const crossSpawn = require("cross-spawn");
 const cosmiconfig = require("cosmiconfig");
 const stripIndent = require("common-tags/lib/stripIndent");
@@ -28,7 +29,7 @@ module.exports = {
   },
 
   process: (src, filename, config, options) => {
-    const lessRunner = `${__dirname}/less-runner.js`;
+    const lessRunner = path.resolve(__dirname, 'less-runner.js');
     const result = crossSpawn.sync("node", [
       "-e",
       stripIndent`
