@@ -1,7 +1,7 @@
 {
   "name": "jest-transform-less",
   "description": "Jest transformer to import LESS into JSDOM",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "author": "Jesper Orb <jesper.orb@caspeco.se>",
   "license": "MIT",
